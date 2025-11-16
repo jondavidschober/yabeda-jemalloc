@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'yabeda/jemalloc/version'
+require 'yabeda/jemalloc/ffi'
 
 module Yabeda
   module Jemalloc
