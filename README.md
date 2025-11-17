@@ -65,13 +65,6 @@ The gem automatically registers metrics when jemalloc is detected. Simply requir
 require 'yabeda/jemalloc'
 ```
 
-For Rails applications, add to your `config/initializers/yabeda.rb`:
-
-```ruby
-require 'yabeda/prometheus'
-require 'yabeda/jemalloc'
-```
-
 ### 3. Run with jemalloc Preloaded
 
 You need to preload jemalloc when starting your Ruby application:
